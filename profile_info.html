@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bapper Bank profile!</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <section class="bg-red-100 h-screen font-mono">
+        <h1 class="text-5xl text-center pt-14 pb-9">Welcome to Your Profile...</h1>
+        <!-- deposite withdow current value -->
+        <div class="flex justify-center gap-x-14 mt-32">
+            <div class="flex bg-slate-400 p-12 rounded text-teal-50">
+                <h1 class="text-3xl">Deposite $</h1>
+                <h1 id="deposite_value" class="text-3xl">0</h1>
+            </div>
+            <div class="flex bg-yellow-400 p-12 rounded">
+                <h1 class="text-3xl">Withdow $</h1>
+                <h1 id="withdow_value" class="text-3xl">0</h1>
+            </div>
+            <div class="flex bg-fuchsia-600 text-white p-12 rounded">
+                <h1 class="text-3xl">Total Balance $</h1>
+                <h1 id="current_value" class="text-3xl">100</h1>
+            </div>
+        </div>
+        <!-- user input -->
+        <div class="flex justify-center gap-x-14 mt-32">
+            <div class="bg-purple-500 p-5 rounded">
+                <h1 class="text-2xl text-amber-200">Add To Deposite </h1>
+                <input id="deposite" class="mt-3 w-fit p-2" type="text"><br>
+                <button id="deposite_btn" class="bg-pink-200 rounded-lg px-3 py-1 mt-3">Add</button>
+            </div>
+            <div class="bg-red-500 p-5 rounded">
+                <h1 class="text-2xl text-white">Withdow To Deposite </h1>
+                <input id="withdow" class="mt-3 w-fit p-2" type="text"><br>
+                <button id="withdow_btn" class="bg-yellow-200 rounded-lg px-3 py-1 mt-3">Withdow</button>
+            </div>
+
+        </div>
+
+    </section>
+    <script src="Js/profile.js"></script>
+</body>
+
+</html>
