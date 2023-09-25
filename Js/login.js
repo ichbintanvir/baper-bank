@@ -16,6 +16,10 @@ const userInfo = [
         'name': 'tanvirnoyon.bubt@gmail.com',
         'password': '123'
     },
+    {
+        'name': 'admin',
+        'password': '123'
+    },
 ]
 const login_btn = document.getElementById('btn');
 
